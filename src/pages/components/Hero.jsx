@@ -7,7 +7,7 @@ function Hero(props) {
         <div className="hero-overlay"></div>
         <div className="container pt-5">
           <div className="row g-5 pt-5">
-            <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+            <div className="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
               {props.children}
             </div>
             {props.image && (
