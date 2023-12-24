@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function About() {
   const [text, setText] = React.useState("");
@@ -78,7 +79,6 @@ function About() {
               <a
                 id="readMoreButton"
                 className="btn btn-primary rounded-pill px-4"
-                href=""
                 onClick={handleReadMore}
               >
                 {isReadMore ? "Read More" : "Read Less"}
@@ -217,6 +217,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
