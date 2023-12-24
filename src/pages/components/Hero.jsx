@@ -3,7 +3,7 @@ import React from "react";
 function Hero(props) {
   return (
     <>
-      <div className="container-fluid pt-5 bg-primary hero-header mb-5">
+      <div className="container-fluid pt-5 bg-primary hero-header">
         <div className="hero-overlay"></div>
         <div className="container pt-5">
           <div className="row g-5 pt-5">

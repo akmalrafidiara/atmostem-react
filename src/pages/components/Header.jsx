@@ -30,7 +30,7 @@ function Header() {
                 <Link to="/about" className="nav-item nav-link">
                   About
                 </Link>
-                <Link to="/error" className="nav-item nav-link">
+                <Link to="/concern" className="nav-item nav-link">
                   Concern
                 </Link>
                 <Link to="/error" className="nav-item nav-link">

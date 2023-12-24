@@ -92,7 +92,12 @@ function About() {
                       <div className="team-item bg-white text-center rounded p-4 pt-0">
                         <img
                           className="img-fluid rounded-circle p-4"
-                          src="/img/alfin2.jpg"
+                          style={{
+                            width: "150px",
+                            height: "150px",
+                            objectFit: "cover",
+                          }}
+                          src="/img/alfin.jpg"
                           alt=""
                         />
                         <h5 className="mb-0">Muhammad Alfin Khaerudin</h5>
@@ -136,7 +141,12 @@ function About() {
                       <div className="team-item bg-white text-center rounded p-4 pt-0">
                         <img
                           className="img-fluid rounded-circle p-4"
-                          src="/img/kenya2.jpg"
+                          style={{
+                            width: "150px",
+                            height: "150px",
+                            objectFit: "cover",
+                          }}
+                          src="/img/kenya.jpg"
                           alt=""
                         />
                         <h5 className="mb-0">Kenya Bhanuwati Pranoto</h5>
@@ -170,7 +180,12 @@ function About() {
                       <div className="team-item bg-white text-center rounded p-4 pt-0">
                         <img
                           className="img-fluid rounded-circle p-4"
-                          src="/img/akmal2.jpg"
+                          style={{
+                            width: "150px",
+                            height: "150px",
+                            objectFit: "cover",
+                          }}
+                          src="/img/akmal.jpg"
                           alt=""
                         />
                         <h5 className="mb-0">Akmal Rafi Diara Putra</h5>

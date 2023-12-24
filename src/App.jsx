@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Concern from "./pages/Concern";
 import ErrorPage from "./pages/ErrorPage";
 import PartialSpinner from "./pages/components/PartialSpinner";
 
@@ -25,6 +26,7 @@ function App({ titlePage = "Home" }) {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/concern" element={<Concern />} />
         <Route path="/error" element={<ErrorPage />} />
       </Routes>
     </>

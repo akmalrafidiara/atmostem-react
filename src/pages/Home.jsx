@@ -371,96 +371,6 @@ function Home() {
               </a>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              {/* <Carousel
-                className="owl-carousel testimonial-carousel border-start border-primary"
-                showThumbs={false}
-                autoPlay
-                infiniteLoop
-                showStatus={false}
-                showIndicators
-                interval={1000}
-                renderArrowPrev={(onClickHandler, hasPrev, label) =>
-                  hasPrev && (
-                    <div className="owl-prev">
-                      <i
-                        className="bi bi-chevron-left"
-                        onClick={onClickHandler}
-                      ></i>
-                    </div>
-                  )
-                }
-                renderArrowNext={(onClickHandler, hasNext, label) =>
-                  hasNext && (
-                    <div className="owl-next">
-                      <i
-                        className="bi bi-chevron-right"
-                        onClick={onClickHandler}
-                      ></i>
-                    </div>
-                  )
-                }
-              >
-                <div className="testimonial-item ps-5">
-                  <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                  <p className="fs-4">
-                    Kami menggabungkan kode dan kreativitas untuk menciptakan
-                    pintu gerbang virtual bagi para penelajar. Melalui website
-                    ini, kami berharap membuka pintu bagi pengetahuan dan
-                    pemahaman tentang lingkungan kita
-                  </p>
-                  <div className="d-flex align-items-center">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded-circle"
-                      src="/img/user.png"
-                      style={{ width: "60px", height: "60px" }}
-                    />
-                    <div className="ps-3">
-                      <h5 className="mb-1">Alfin</h5>
-                      <span>Developer</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="testimonial-item ps-5">
-                  <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                  <p className="fs-4">
-                    Setiap baris kode adalah langkah kecil untuk menjembatani
-                    kesenjangan dalam pemahaman. Kami percaya bahwa melalui
-                    teknologi, kami dapat memperluas wawasan tentang isu-isu
-                    lingkungan dan memberdayakan generasi mendatang.
-                  </p>
-                  <div className="d-flex align-items-center">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded-circle"
-                      src="/img/user.png"
-                      style={{ width: "60px", height: "60px" }}
-                    />
-                    <div className="ps-3">
-                      <h5 className="mb-1">Akmal</h5>
-                      <span>Developer</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="testimonial-item ps-5">
-                  <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                  <p className="fs-4">
-                    Website ini bukan hanya kumpulan kata-kata, tetapi adalah
-                    jendela ke dunia sains dan lingkungan. Kami berkomitmen
-                    untuk memberikan pengalaman belajar interaktif dan memikat
-                    bagi pengguna dari segala usia.
-                  </p>
-                  <div className="d-flex align-items-center">
-                    <img
-                      className="img-fluid flex-shrink-0 rounded-circle"
-                      src="/img/user.png"
-                      style={{ width: "60px", height: "60px" }}
-                    />
-                    <div className="ps-3">
-                      <h5 className="mb-1">Kenya</h5>
-                      <span>Developer</span>
-                    </div>
-                  </div>
-                </div>
-              </Carousel> */}
               <div className="testimonial-carousel border-start border-primary">
                 <OwlCarousel options={options}>
                   <div className="testimonial-item ps-5">
@@ -474,8 +384,12 @@ function Home() {
                     <div className="d-flex align-items-center">
                       <img
                         className="img-fluid flex-shrink-0 rounded-circle"
-                        src="/img/user.png"
-                        style={{ width: "60px", height: "60px" }}
+                        src="/img/alfin.jpg"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
                       />
                       <div className="ps-3">
                         <h5 className="mb-1">Alfin</h5>
@@ -494,8 +408,12 @@ function Home() {
                     <div className="d-flex align-items-center">
                       <img
                         className="img-fluid flex-shrink-0 rounded-circle"
-                        src="/img/user.png"
-                        style={{ width: "60px", height: "60px" }}
+                        src="/img/akmal.jpg"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
                       />
                       <div className="ps-3">
                         <h5 className="mb-1">Akmal</h5>
@@ -514,8 +432,12 @@ function Home() {
                     <div className="d-flex align-items-center">
                       <img
                         className="img-fluid flex-shrink-0 rounded-circle"
-                        src="/img/user.png"
-                        style={{ width: "60px", height: "60px" }}
+                        src="/img/kenya.jpg"
+                        style={{
+                          width: "60px",
+                          height: "60px",
+                          objectFit: "cover",
+                        }}
                       />
                       <div className="ps-3">
                         <h5 className="mb-1">Kenya</h5>
