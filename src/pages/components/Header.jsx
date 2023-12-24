@@ -33,7 +33,7 @@ function Header() {
                 <Link to="/concern" className="nav-item nav-link">
                   Concern
                 </Link>
-                <Link to="/error" className="nav-item nav-link">
+                <Link to="/article" className="nav-item nav-link">
                   Information
                 </Link>
                 <div className="nav-item dropdown">

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Concern from "./pages/Concern";
 import ErrorPage from "./pages/ErrorPage";
 import PartialSpinner from "./pages/components/PartialSpinner";
+import Articles from "./pages/Articles";
 
 function App({ titlePage = "Home" }) {
   const [showSpinner, setShowSpinner] = useState(true);
@@ -27,6 +28,7 @@ function App({ titlePage = "Home" }) {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/concern" element={<Concern />} />
+        <Route path="/article" element={<Articles />} />
         <Route path="/error" element={<ErrorPage />} />
       </Routes>
     </>
