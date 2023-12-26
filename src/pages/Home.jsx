@@ -34,20 +34,20 @@ function Home() {
           —a journey through the unseen, a tale written in every breath.
         </p>
         <a
-          href=""
+          href="/#about-atmostem"
           className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight"
         >
           Read More
         </a>
         <a
-          href=""
+          href="/concern"
           className="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
         >
-          Contact Us
+          #WeAreAtmostem
         </a>
       </Hero>
       {/* About */}
-      <div className="container-fluid py-5">
+      <div className="container-fluid py-5" id="about-atmostem">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -95,7 +95,10 @@ function Home() {
                 </div>
               </div>
               <div className="d-flex align-items-center mt-4">
-                <a className="btn btn-primary rounded-pill px-4 me-3" href="">
+                <a
+                  className="btn btn-primary rounded-pill px-4 me-3"
+                  href="/about"
+                >
                   Read More
                 </a>
               </div>
@@ -123,7 +126,7 @@ function Home() {
                   baik tentang isu-isu ini.
                 </strong>
               </p>
-              <a className="btn btn-primary rounded-pill px-4" href="">
+              <a className="btn btn-primary rounded-pill px-4" href="/concern">
                 Read More
               </a>
             </div>
@@ -141,7 +144,7 @@ function Home() {
                           Udara sangat penting loh.. setiap hari kita menghirup
                           udara, tapi kenapa kita tidak peduli dengannya?
                         </p>
-                        <a className="btn px-3 mt-auto mx-auto" href="">
+                        <a className="btn px-3 mt-auto mx-auto" href="/udara">
                           Read More
                         </a>
                       </div>
@@ -156,7 +159,7 @@ function Home() {
                           Selama ini kita dilindungi oleh lapisan ozon, tapi
                           kamu tau ga kalo lapisan ozon itu bisa rusak?
                         </p>
-                        <a className="btn px-3 mt-auto mx-auto" href="">
+                        <a className="btn px-3 mt-auto mx-auto" href="/ozon">
                           Read More
                         </a>
                       </div>
@@ -175,7 +178,10 @@ function Home() {
                           Bumi tanpa atmosfer mungkin kita sudah terbakar
                           radiasi matahari, tapi mengapa ya?
                         </p>
-                        <a className="btn px-3 mt-auto mx-auto" href="">
+                        <a
+                          className="btn px-3 mt-auto mx-auto"
+                          href="/atmosfer"
+                        >
                           Read More
                         </a>
                       </div>
@@ -191,7 +197,10 @@ function Home() {
                           terjadi, apakah kalian bisa bayangkan bagaimana
                           keadannya?
                         </p>
-                        <a className="btn px-3 mt-auto mx-auto" href="">
+                        <a
+                          className="btn px-3 mt-auto mx-auto"
+                          href="/efek-rumah-kaca"
+                        >
                           Read More
                         </a>
                       </div>
@@ -287,9 +296,9 @@ function Home() {
             style={{ maxWidth: "500px" }}
           >
             <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">
-              Case Study
+              Sustainable Development Goals
             </div>
-            <h1 className="mb-4">Explore Our Recent AI Case Studies</h1>
+            <h1 className="mb-4">Artikel Tentang Urgensi Kami</h1>
           </div>
           <div className="row g-4">
             <div className="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -366,7 +375,7 @@ function Home() {
                 berpartisipasi dalam upaya melindungi lingkungan dan menciptakan
                 masa depan yang berkelanjutan.
               </p>
-              <a className="btn btn-primary rounded-pill px-4" href="">
+              <a className="btn btn-primary rounded-pill px-4" href="/about">
                 Read More
               </a>
             </div>
@@ -457,10 +466,10 @@ function Home() {
         <div className="container">
           <div className="row g-5 align-items-center">
             <div
-              className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn"
+              className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn d-none d-md-block"
               data-wow-delay="0.3s"
             >
-              <img className="img-fluid" src="/img/newsletter.png" alt="" />
+              <img className="img-fluid" src="/img/home_rocket.png" alt="" />
             </div>
             <div
               className="col-md-7 py-5 newsletter-text wow fadeIn"
@@ -470,18 +479,20 @@ function Home() {
                 Eduational Video
               </div>
               <h1 className="text-white mb-4">
-                Coba kamu perhatikan untuk membuka wawasan mu!
+                Ayo, intip sini buat nambah wawasanmu! 🌟
               </h1>
               <div className="position-relative w-100 mt-3 mb-2">
-                <iframe
-                  width="100%"
-                  height="500"
-                  src="https://www.youtube.com/embed/QJK_DGlPD0Q?si=Zl-lexQBKjyi0sNA"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <div className="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/QJK_DGlPD0Q?si=Zl-lexQBKjyi0sNA"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>

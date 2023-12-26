@@ -17,29 +17,21 @@ function ErrorPage() {
           />
         }
       >
+        <div className="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">
+          ATMO.STEM
+        </div>
         <h1 className="display-4 text-white mb-4 animated slideInRight">
-          404 Error
+          Opps! Page Not Found
         </h1>
-        <nav aria-label="breadcrumb">
-          <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Home
-              </a>
-            </li>
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Pages
-              </a>
-            </li>
-            <li
-              className="breadcrumb-item text-white active"
-              aria-current="page"
-            >
-              404 Error
-            </li>
-          </ol>
-        </nav>
+        <p className="text-white mb-4 animated slideInRight">
+          Hmmm... sepertinya halaman ini tidak tersedia.
+        </p>
+        <a
+          href="/"
+          className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight"
+        >
+          Back To Home
+        </a>
       </Hero>
       <div className="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="container text-center py-5">
@@ -52,7 +44,7 @@ function ErrorPage() {
                 We’re sorry, the page you have looked for does not exist in our
                 website! Maybe go to our home page or try to use a search?
               </p>
-              <a className="btn btn-primary rounded-pill py-3 px-5" href="">
+              <a className="btn btn-primary rounded-pill py-3 px-5" href="/">
                 Go Back To Home
               </a>
             </div>

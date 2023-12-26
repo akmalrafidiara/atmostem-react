@@ -21,7 +21,9 @@ function Articles() {
         const response = await fetch(url, options);
         if (response.headers.get("Content-Type").includes("application/json")) {
           const result = await response.json();
-          setData(result.articles);
+          console.log(result);
+          // setData(result.articles);
+          setData(result.articles.slice(0, 9));
         } else {
           console.error("Received non-JSON response");
         }
@@ -35,39 +37,16 @@ function Articles() {
   return (
     <>
       <Header />
-      <Hero
-        image={
-          <img
-            className="img-fluid"
-            src="/img/global-warm.png"
-            alt=""
-            style={{ maxHeight: "300px" }}
-          />
-        }
-      >
+      <Hero>
+        <div className="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">
+          ATMO.STEM
+        </div>
         <h1 className="display-4 text-white mb-4 animated slideInRight">
-          404 Error
+          Article
         </h1>
-        <nav aria-label="breadcrumb">
-          <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Home
-              </a>
-            </li>
-            <li className="breadcrumb-item">
-              <a className="text-white" href="#">
-                Pages
-              </a>
-            </li>
-            <li
-              className="breadcrumb-item text-white active"
-              aria-current="page"
-            >
-              404 Error
-            </li>
-          </ol>
-        </nav>
+        <p className="text-white mb-4 animated slideInRight">
+          Kumpulan artikel tentang perubahan iklim.
+        </p>
       </Hero>
       <div className="container-fluid py-5 wow fadeIn" data-wow-delay="0.1s">
         <div className="container py-5">
@@ -99,7 +78,14 @@ function Articles() {
                 </div>
               ))
             ) : (
-              <p>Loading...</p>
+              <div style={{ width: "100%" }} className="text-center">
+                <img
+                  src="/img/steam_launch.gif"
+                  alt=""
+                  style={{ width: "300px" }}
+                  className="img-fluid"
+                />
+              </div>
             )}
           </div>
         </div>

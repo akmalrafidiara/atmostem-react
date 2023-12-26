@@ -7,10 +7,14 @@ function Footer() {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-              <a href="404.html" className="d-inline-block mb-3">
-                <h1 className="text-white">
-                  ATMO<span className="text-primary">.</span>STEM
-                </h1>
+              <a href="/" className="d-flex gap-2 mb-3">
+                <img
+                  src="/img/logo_atmostem_white.png"
+                  alt="Atmostem"
+                  className="img-fluid me-2"
+                  style={{ width: "40px" }}
+                />
+                <h2 className="text-white mb-0">Atmostem.</h2>
               </a>
               <p className="mb-0">
                 Kami percaya bahwa pemahaman yang lebih baik tentang udara,
@@ -36,10 +40,10 @@ function Footer() {
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
-                  <a href="">Home</a>
-                  <a href="">Cookies</a>
-                  <a href="">Help</a>
-                  <a href="">FAQs</a>
+                  <a href="/">Home</a>
+                  <a href="/about">Cookies</a>
+                  <a href="/steam">Help</a>
+                  <a href="/concern">FAQs</a>
                 </div>
               </div>
             </div>
