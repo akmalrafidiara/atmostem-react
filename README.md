@@ -1,6 +1,16 @@
-# React + Vite
+# Atmostem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run dev
+```
 
 Currently, two official plugins are available:
 

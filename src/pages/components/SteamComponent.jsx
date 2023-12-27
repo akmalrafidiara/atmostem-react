@@ -110,6 +110,7 @@ function SteamComponent() {
                 src="https://waqi.info/id/#/c/-6.209/106.756/10.4z"
                 frameBorder="0"
                 style={{ width: "100%", height: "500px" }}
+                scrolling="no"
               ></iframe>
             </div>
           </div>
