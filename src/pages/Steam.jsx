@@ -8,12 +8,12 @@ function Steam() {
   const [isShowWelcome, setIsWelcome] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [showSteamComponent, setShowSteamComponent] = useState(false);
-  const [countdown, setCountdown] = useState(1);
+  const [countdown, setCountdown] = useState(10);
 
   const handleClick = async () => {
     setIsLoading(true);
     // Simulate a network request
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 12000));
     setIsLoading(false);
     setIsWelcome(false);
     setShowSteamComponent(true);
@@ -54,12 +54,14 @@ function Steam() {
                 <h1 className="display-1">STEAM</h1>
                 <h1 className="mb-4">
                   {isLoading
-                    ? `Memulai Perjalanan dalam ${
-                        countdown > 0 ? countdown : "Launch!"
+                    ? `${
+                        countdown > 0
+                          ? "Memulai Perjalanan dalam " + countdown
+                          : "Launch!"
                       }`
                     : "Memulai Perjalanan mu dari sini"}
                 </h1>
-                <p className="mb-4">Mari kita mulai sekarang!</p>
+                <p className="mb-4">Menyiapkan perjalanan STEAM mu!</p>
                 {isLoading ? (
                   <div style={{ width: "100%" }}>
                     <img

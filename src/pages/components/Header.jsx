@@ -89,9 +89,9 @@ function Header() {
                     </Link>
                   </div>
                 </div>
-                <Link to="/error" className="nav-item nav-link">
+                {/* <Link to="/error" className="nav-item nav-link">
                   Forums
-                </Link>
+                </Link> */}
               </div>
               <button
                 type="button"
