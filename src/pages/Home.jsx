@@ -476,7 +476,7 @@ function Home() {
               data-wow-delay="0.5s"
             >
               <div className="btn btn-sm border rounded-pill text-white px-3 mb-3">
-                Eduational Video
+                Educational Video
               </div>
               <h1 className="text-white mb-4">
                 Ayo, intip sini buat nambah wawasanmu! 🌟

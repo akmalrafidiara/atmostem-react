@@ -605,6 +605,12 @@ h6,
     width: 100%;
     height: 100%;
   }
+
+  .video-container .youtube-short {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177.77%; /* 9:16 Aspect Ratio */
+  }
   
   .interactive-container {
     position: relative;

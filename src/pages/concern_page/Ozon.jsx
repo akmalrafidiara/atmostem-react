@@ -162,6 +162,45 @@ function Ozon() {
           </div>
         </div>
       </div>
+      {/* News */}
+      <div className="container-fluid bg-primary newsletter py-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div
+              className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn d-none d-md-block"
+              data-wow-delay="0.3s"
+            >
+              <img className="img-fluid" src="/img/home_rocket.png" alt="" />
+            </div>
+            <div
+              className="col-md-7 py-5 newsletter-text wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <div className="btn btn-sm border rounded-pill text-white px-3 mb-3">
+                Educational Video
+              </div>
+              <h1 className="text-white mb-4">
+                Ayo, intip sini buat nambah wawasanmu! 🌟
+              </h1>
+              <div className="position-relative w-100 mt-3 mb-2">
+                <div className="short-container">
+                  {/* youtube short */}
+                  <div className="youtube-short">
+                    <iframe
+                      width="315"
+                      height="560"
+                      src="https://youtube.com/shorts/9gCr1j-Yc3c?si=sR00cK1eOnt2HP8S"
+                      title="YouTube short player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen=""
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
