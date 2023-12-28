@@ -402,7 +402,7 @@ function Home() {
                       />
                       <div className="ps-3">
                         <h5 className="mb-1">Alfin</h5>
-                        <span>Developer</span>
+                        <span>Designer</span>
                       </div>
                     </div>
                   </div>
@@ -450,7 +450,7 @@ function Home() {
                       />
                       <div className="ps-3">
                         <h5 className="mb-1">Kenya</h5>
-                        <span>Developer</span>
+                        <span>Content Creator</span>
                       </div>
                     </div>
                   </div>

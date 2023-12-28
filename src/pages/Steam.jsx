@@ -8,12 +8,12 @@ function Steam() {
   const [isShowWelcome, setIsWelcome] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [showSteamComponent, setShowSteamComponent] = useState(false);
-  const [countdown, setCountdown] = useState(10);
+  const [countdown, setCountdown] = useState(1);
 
   const handleClick = async () => {
     setIsLoading(true);
     // Simulate a network request
-    await new Promise((resolve) => setTimeout(resolve, 12000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
     setIsLoading(false);
     setIsWelcome(false);
     setShowSteamComponent(true);

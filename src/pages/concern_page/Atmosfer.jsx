@@ -12,17 +12,12 @@ function Atmosfer() {
           ATMO.STEM
         </div>
         <h1 className="display-4 text-white mb-4 animated slideInRight">
-          Opps! Page Not Found
+          Atmosfer
         </h1>
         <p className="text-white mb-4 animated slideInRight">
-          Hmmm... sepertinya halaman ini tidak tersedia.
+          Atmosfer adalah nama untuk lapisan gas yang menyelubungi benda yang
+          memiliki massa sangat berat.
         </p>
-        <a
-          href="/"
-          className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight"
-        >
-          Back To Home
-        </a>
       </Hero>
       {/* Service */}
       <div className="container-fluid bg-light">

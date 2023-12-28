@@ -12,17 +12,12 @@ function EfekRumahKaca() {
           ATMO.STEM
         </div>
         <h1 className="display-4 text-white mb-4 animated slideInRight">
-          Opps! Page Not Found
+          Efek rumah kaca
         </h1>
         <p className="text-white mb-4 animated slideInRight">
-          Hmmm... sepertinya halaman ini tidak tersedia.
+          Penggambaran singkat tentang pertukaran energi antara matahari,
+          permukaan bumi, atmosfer bumi dan angkasa.
         </p>
-        <a
-          href="/"
-          className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight"
-        >
-          Back To Home
-        </a>
       </Hero>
       {/* Service */}
       <div className="container-fluid bg-light">

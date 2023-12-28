@@ -12,17 +12,12 @@ function Ozon() {
           ATMO.STEM
         </div>
         <h1 className="display-4 text-white mb-4 animated slideInRight">
-          Opps! Page Not Found
+          Lapisan Ozon
         </h1>
         <p className="text-white mb-4 animated slideInRight">
-          Hmmm... sepertinya halaman ini tidak tersedia.
+          Lapisan ozon adalah lapisan di atmosfer pada ketinggian 20−35 km di
+          atas permukaan Bumi yang mengandung molekul-molekul ozon.
         </p>
-        <a
-          href="/"
-          className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight"
-        >
-          Back To Home
-        </a>
       </Hero>
       {/* Service */}
       <div className="container-fluid bg-light">
