@@ -19,6 +19,96 @@ function Ozon() {
           atas permukaan Bumi yang mengandung molekul-molekul ozon.
         </p>
       </Hero>
+      {/* Pengertian Lapisan Ozon */}
+      <div className="container-fluid mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+              <h1 className="mb-4">Apa itu Lapisan Ozon?</h1>
+              <p className="mb-4">
+                Lapisan ozon adalah suatu lapisan di atmosfer Bumi yang terdiri dari molekul ozon (O3). Terletak di stratosfer, lapisan ini memainkan peran krusial dalam melindungi kehidupan di Bumi dengan menyerap sebagian besar radiasi ultraviolet (UV) berbahaya dari matahari.
+              </p>
+            </div>
+            <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div>
+                <img className="img-fluid" src="/img/udara_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* lapisan Ozon Bekerja */}
+      <div className="container-fluid mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div>
+                <img className="img-fluid" src="/img/udara_2.png" />
+              </div>
+            </div>
+            <div className="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+              <h1 className="mb-4">Bagaimana Lapisan Ozon Bekerja?</h1>
+              <p className="mb-4">
+                Ozon di lapisan ozon berasal dari proses fotosintesis oleh tumbuhan dan alga laut. Oksigen (O2) yang dihasilkan dari proses ini kemudian berinteraksi dengan sinar ultraviolet (UV) dari matahari, membentuk ozon (O3) di stratosfer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Komponen Lapisan Ozon */}
+      <div className="container-fluid mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+              <h1 className="mb-4">Apa Saja Komponen Lapisan Ozon?</h1>
+              <p className="mb-4">
+                Komponen utama lapisan ozon adalah molekul ozon (O3) yang membentuk lapisan di stratosfer. Selain itu, gas-gas lain seperti nitrogen oksida (NO), klorin (Cl), dan bromin (Br) juga dapat berkontribusi pada pembentukan dan penipisan lapisan ozon.
+              </p>
+            </div>
+            <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div>
+                <img className="img-fluid" src="/img/udara_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Penipisan Lapisan Ozon */}
+      <div className="container-fluid mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div>
+                <img className="img-fluid" src="/img/udara_2.png" />
+              </div>
+            </div>
+            <div className="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+              <h1 className="mb-4">Penipisan Lapisan Ozon</h1>
+              <p className="mb-4">
+                Penipisan lapisan ozon terjadi ketika jumlah zat-zat kimia seperti CFCs (chlorofluorocarbons), halon, dan bromin berlebihan di atmosfer. Zat-zat ini merusak molekul ozon dan menyebabkan penurunan konsentrasi lapisan ozon.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Komponen Lapisan Ozon */}
+      <div className="container-fluid mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-8 wow fadeIn" data-wow-delay="0.5s">
+              <h1 className="mb-4">Memperbaiki Keadaan Lapisan Ozon</h1>
+              <p className="mb-4">
+              Upaya global telah dilakukan untuk mengatasi penipisan lapisan ozon. Perjanjian internasional seperti Protokol Montreal melarang atau membatasi produksi dan penggunaan zat-zat yang merusak lapisan ozon. Langkah-langkah ini penting untuk memastikan pemulihan dan keberlanjutan lapisan ozon di masa mendatang.
+              </p>
+            </div>
+            <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div>
+                <img className="img-fluid" src="/img/udara_1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Service */}
       <div className="container-fluid bg-light">
         <div className="container">
