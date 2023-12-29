@@ -146,6 +146,18 @@ function Udara() {
                 kita hirup setiap saat. Jadi, setiap napas yang kita ambil, kita
                 tahu apa yang kita hirup.
               </p>
+              <iframe
+                src="https://earth.nullschool.net/#current/particulates/surface/currents/overlay=pm10/orthographic=-254.44,-3.59,1784/loc=107.185,-6.739"
+                frameBorder="0"
+                style={{ width: "100%", height: "500px" }}
+                scrolling="no"
+              ></iframe>
+              <iframe
+                src="https://waqi.info/#/c/0.088/108.586/5.6z"
+                frameBorder="0"
+                style={{ width: "100%", height: "500px" }}
+                scrolling="no"
+              ></iframe>
             </div>
           </div>
         </div>
@@ -211,10 +223,53 @@ function Udara() {
                 angin adalah duo dinamis yang saling terkait, menciptakan
                 harmoni dalam sistem atmosfer.
               </p>
+              <iframe
+                src="https://earth.nullschool.net/#current/wind/isobaric/10hPa/orthographic=-249.56,-2.01,892/loc=107.185,-6.739"
+                frameBorder="0"
+                style={{ width: "100%", height: "500px" }}
+                scrolling="no"
+              ></iframe>
             </div>
             <div className="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
               <div>
                 <img className="img-fluid" src="/img/udara_9.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* News */}
+      <div className="container-fluid bg-primary newsletter py-5 mt-5">
+        <div className="container">
+          <div className="row g-5 align-items-center">
+            <div
+              className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn d-none d-md-block"
+              data-wow-delay="0.3s"
+            >
+              <img className="img-fluid" src="/img/home_rocket.png" alt="" />
+            </div>
+            <div
+              className="col-md-7 py-5 newsletter-text wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <div className="btn btn-sm border rounded-pill text-white px-3 mb-3">
+                Educational Video
+              </div>
+              <h1 className="text-white mb-4">
+                Jika oksigen hilang, apa yang akan terjadi? 😖
+              </h1>
+              <div className="position-relative w-100 mt-3 mb-2">
+                <div className="video-container">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/HzLjuC_pNnc?si=cpMK0XkZu256cxTs"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
